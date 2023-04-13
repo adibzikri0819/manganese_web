@@ -1,13 +1,15 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import "tailwindcss/base";
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@layer components {
+  .card {
+    @apply max-w-sm rounded overflow-hidden shadow-lg mt-5
+  }
+
+  .form{
+    @apply ml-96 w-fit mt-2 md:flex-grow flex-row-reverse
+  }
 }
