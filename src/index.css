@@ -12,4 +12,5 @@
   .form{
     @apply ml-96 w-fit mt-2 md:flex-grow flex-row-reverse
   }
+  
 }

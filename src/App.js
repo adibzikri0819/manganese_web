@@ -29,6 +29,8 @@ import Romance from './Genres/Romance';
 import Horror from './Genres/Horror';
 import Thriller from './Genres/Thriller';
 
+import DemonSlayerChapterTwo from './MangaPageTwo/DemonSlayerChapterTwo';
+
 function App() {
   return (
     <div className="App">
@@ -59,6 +61,8 @@ function App() {
           <Route path='/Romance' element={<Romance/>}/>
           <Route path='/Horror' element={<Horror/>}/>
           <Route path='/Thriller' element={<Thriller/>}/>
+
+          <Route path='/DemonSlayerChapterTwo' element={<DemonSlayerChapterTwo/>}/>
         </Routes>
       
       

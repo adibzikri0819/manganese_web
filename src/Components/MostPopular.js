@@ -10,6 +10,9 @@ import city_hunter from '../assets/city_hunter.jpg'
 export default class MostPopular extends Component {
   render() {
     return (
+    <div>
+      <div className='pt-10'></div>
+      <h5 className='text-2xl md:text-3xl font-medium mt-3'>Most Popular</h5>
       <div className='flex items-center justify-center min-h screen container mx-auto'>
 
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
@@ -83,6 +86,7 @@ export default class MostPopular extends Component {
       </div>
 
     </div>
+  </div>
     )
   }
 }
