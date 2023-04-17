@@ -29,7 +29,19 @@ import Romance from './Genres/Romance';
 import Horror from './Genres/Horror';
 import Thriller from './Genres/Thriller';
 
-import DemonSlayerChapterTwo from './MangaPageTwo/DemonSlayerChapterTwo';
+import BokuNoHeroAcademiaChapterOne from './BokuNoHeroAcademiaChapters/BokuNoHeroAcademiaChapterOne';
+import BokuNoHeroAcademiaChapterTwo from './BokuNoHeroAcademiaChapters/BokuNoHeroAcademiaChapterTwo';
+import BokuNoHeroAcademiaChapterThree from './BokuNoHeroAcademiaChapters/BokuNoHeroAcademiaChapterThree';
+
+import DemonSlayerChapterOne from './DemonSlayerChapters/DemonSlayerChapterOne';
+import DemonSlayerChapterTwo from './DemonSlayerChapters/DemonSlayerChapterTwo';
+import DemonSlayerChapterThree from './DemonSlayerChapters/DemonSlayerChapterThree';
+
+
+
+import BleachChapterOne from './BleachChapters/BleachChapterOne';
+import BleachChapterTwo from './BleachChapters/BleachChapterTwo';
+import BleachChapterThree from './BleachChapters/BleachChapterThree';
 
 function App() {
   return (
@@ -62,7 +74,17 @@ function App() {
           <Route path='/Horror' element={<Horror/>}/>
           <Route path='/Thriller' element={<Thriller/>}/>
 
+          <Route path='/BokuNoHeroAcademiaChapterOne' element={<BokuNoHeroAcademiaChapterOne/>}/>
+          <Route path='/BokuNoHeroAcademiaChapterTwo' element={<BokuNoHeroAcademiaChapterTwo/>}/>
+          <Route path='/BokuNoHeroAcademiaChapterThree' element={<BokuNoHeroAcademiaChapterThree/>}/>
+
+          <Route path='/DemonSlayerChapterOne' element={<DemonSlayerChapterOne/>}/>
           <Route path='/DemonSlayerChapterTwo' element={<DemonSlayerChapterTwo/>}/>
+          <Route path='/DemonSlayerChapterThree' element={<DemonSlayerChapterThree/>}/>
+
+          <Route path='/BleachChapterOne' element={<BleachChapterOne/>}/>
+          <Route path='/BleachChapterTwo' element={<BleachChapterTwo/>}/>
+          <Route path='/BleachChapterThree' element={<BleachChapterThree/>}/>
         </Routes>
       
       
