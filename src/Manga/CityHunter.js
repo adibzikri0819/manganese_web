@@ -1,9 +1,59 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { Link } from 'react-router-dom'
+import ListItemText from '@mui/material/ListItemText';
+import Button from '@mui/material/Button';
+import Box from '@mui/material/Box';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemButton from '@mui/material/ListItemButton';
+import city_hunter_cover from '../assets/cityhuntercover.jpg'
 
-export default class CityHunter extends Component {
-  render() {
-    return (
-      <div>CityHunter</div>
-    )
-  }
+export default function CityHunter() {
+  const buttons = [
+    <Link to={'/CityHunterChapterOne'}><Button key="one">One</Button></Link>,
+    <Link to={'/CityHunterChapterTwo'}><Button key="two">Two</Button></Link>,
+    <Link to={'/CityHunterChapterThree'}><Button key="three">Three</Button></Link>,
+  ];
+
+  return (
+    <div className='pt-10'>
+    <h5 className='text-2xl md:text-3xl font-medium mt-3 pb-5'>City Hunter</h5>
+    <div class="flex flex-col justify-center items-center gap-2">
+    <div>
+    <img src={city_hunter_cover} alt="bleach cover" width="480" height="600" />
+    </div>
+    <div>
+      <h2 className='text-2xl md:text-2xl font-medium mt-3 pb-5'>List of Chapters</h2>
+    </div>
+
+    <div>
+    <Box sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
+     
+      <nav aria-label="secondary mailbox folders">
+        <List>
+          <ListItem disablePadding>
+            <ListItemButton component="a" href="/CityHunterChapterOne">
+              <ListItemText primary="Chapter 1" />
+            </ListItemButton>
+          </ListItem>
+          <ListItem disablePadding>
+            <ListItemButton component="a" href="/CityHunterChapterTwo">
+              <ListItemText primary="Chapter 2" />
+            </ListItemButton>
+          </ListItem>
+          <ListItem disablePadding>
+            <ListItemButton component="a" href="/CityHunterChapterThree">
+              <ListItemText primary="Chapter 3" />
+            </ListItemButton>
+          </ListItem>
+        </List>
+      </nav>
+    </Box>
+    </div>
+
+
+   
+    </div>
+  </div>
+  )
 }
