@@ -86,6 +86,11 @@ export default class MostPopular extends Component {
       </div>
 
     </div>
+
+    <footer className='pt-10'>
+
+    </footer>
+
   </div>
     )
   }

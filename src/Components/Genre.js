@@ -86,6 +86,11 @@ export default class Genre extends Component {
       </div>
 
     </div>
+
+    <footer className='pt-10'>
+
+     </footer>
+     
   </div>
     )
   }
