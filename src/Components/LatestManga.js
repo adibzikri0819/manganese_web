@@ -6,7 +6,7 @@ import jujutsu_kaisen from '../assets/jujutsu_kaisen.jpg'
 import juujika_no_rokunin from '../assets/juujika_no_rokunin.jpg'
 import sakamoto_days from '../assets/sakamoto_days.jpg'
 import spy_x_family from '../assets/spy_x_family.jpg'
-import { Typography } from "@material-tailwind/react";
+
 
 
 

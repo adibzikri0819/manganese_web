@@ -6,7 +6,7 @@ import juujikanorokunin_chapter_3_page3 from '../JuujikaNoRokuninPages/Chapter3/
 import { Link } from 'react-router-dom'
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
-import FormHelperText from '@mui/material/FormHelperText';
+
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 

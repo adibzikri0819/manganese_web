@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Navbar from './Components/Navbar';
 import LatestManga from './Components/LatestManga';
-import { BrowserRouter, Routes, Route} from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 
 import MostPopular from './Components/MostPopular';
 import Genre from './Components/Genre';

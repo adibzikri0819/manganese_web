@@ -6,7 +6,7 @@ import onepiece_chapter_3_page3 from '../OnePiecePages/Chapter3/onepiece_chap3_p
 import { Link } from 'react-router-dom'
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
-import FormHelperText from '@mui/material/FormHelperText';
+
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 

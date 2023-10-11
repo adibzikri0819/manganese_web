@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react'
+import React from 'react'
 import demon_slayer_chapter_1_page1 from '../DemonSlayerPages/Chapter1/demonslayerpage1.jpg'
 import demon_slayer_chapter_1_page2 from '../DemonSlayerPages/Chapter1/demonslayerpage2.jpg'
 import demon_slayer_chapter_1_page3 from '../DemonSlayerPages/Chapter1/demonslayerpage3.jpg'
@@ -9,7 +9,7 @@ import demon_slayer_chapter_1_page7 from '../DemonSlayerPages/Chapter1/demonslay
 import { Link } from 'react-router-dom'
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
-import FormHelperText from '@mui/material/FormHelperText';
+
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
