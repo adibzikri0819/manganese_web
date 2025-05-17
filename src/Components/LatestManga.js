@@ -18,70 +18,70 @@ export default function LatestManga() {
       <div className='flex items-center justify-center min-h screen container mx-auto'>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
           <div className='card'>
-            <div className='=p-5 flex flex-col'>
+            <div className='p-5 flex flex-col'>
               <div className='rounded xl overflow-hidden'>
-                <img src={boku_no_hero} alt='' />
+                <img src={boku_no_hero} alt='' className='w-full h-48 object-cover' />
               </div>
-              <h5 className='text-2xl md:text-3xl font-medium mt-3'>Boku no Hero Academia</h5>
+              <h7 className='text-2xl md:text-3xl font-medium mt-3'>My Hero Academia</h7>
               <p className='text-slate-500 text-lg mt-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-              <Link to='/BokuNoHero' className='text-center bg-blue-400 text-blue-700 py-2 rounded-lg font-semibold mt-4 hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out'>Select</Link>
+              <Link to='/BokuNoHero' className='w-full bg-blue-400 text-blue-700 py-2 rounded-lg font-semibold mt-4 hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out'>Select</Link>
             </div>
           </div>
 
           
 
           <div className='card'>
-            <div className='=p-5 flex flex-col'>
+            <div className='p-5 flex flex-col'>
               <div className='rounded xl overflow-hidden'>
-                <img src={demon_slayer} alt='' />
+                <img src={demon_slayer} alt='' className='w-full h-48 object-cover' />
               </div>
               <h5 className='text-2xl md:text-3xl font-medium mt-3'>Demon Slayer</h5>
               <p className='text-slate-500 text-lg mt-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-              <Link to='/DemonSlayer' className='text-center bg-blue-400 text-blue-700 py-2 rounded-lg font-semibold mt-4 hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out'>Select</Link>
+              <Link to='/DemonSlayer' className='w-full bg-blue-400 text-blue-700 py-2 rounded-lg font-semibold mt-4 hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out'>Select</Link>
             </div>
           </div>
 
           <div className='card'>
             <div className='p-5 flex flex-col'>
               <div className='rounded xl overflow-hidden'>
-                <img src={jujutsu_kaisen} alt='' className=''/>
+                <img src={jujutsu_kaisen} alt='' className='w-full h-48 object-cover'/>
               </div>
               <h5 className='text-2xl md:text-3xl font-medium mt-3'>Jujutsu Kaisen</h5>
               <p className='text-slate-500 text-lg mt-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-              <Link to='/JujutsuKaisen' className='text-center bg-blue-400 text-blue-700 py-2 rounded-lg font-semibold mt-4 hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out'>Select</Link>
+              <Link to='/JujutsuKaisen' className='w-full bg-blue-400 text-blue-700 py-2 rounded-lg font-semibold mt-4 hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out'>Select</Link>
             </div>
           </div>
 
           <div className='card'>
             <div className='p-5 flex flex-col'>
               <div className='rounded xl overflow-hidden'>
-                <img src={juujika_no_rokunin} alt='' />
+                <img src={juujika_no_rokunin} alt='' className='w-full h-48 object-cover' />
               </div>
               <h5 className='text-2xl md:text-3xl font-medium mt-3'>Juujika no Rokunin</h5>
               <p className='text-slate-500 text-lg mt-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-              <Link to='/JuujikaNoRokunin' className='text-center bg-blue-400 text-blue-700 py-2 rounded-lg font-semibold mt-4 hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out'>Select</Link>
+              <Link to='/JuujikaNoRokunin' className='w-full bg-blue-400 text-blue-700 py-2 rounded-lg font-semibold mt-4 hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out'>Select</Link>
             </div>
           </div>
 
           <div className='card'>
-            <div className='=p-5 flex flex-col'>
+            <div className='p-5 flex flex-col'>
               <div className='rounded xl overflow-hidden'>
-                <img src={sakamoto_days} alt='' />
+                <img src={sakamoto_days} alt='' className='w-full h-48 object-cover' />
               </div>
               <h5 className='text-2xl md:text-3xl font-medium mt-3'>Sakamoto Days</h5>
               <p className='text-slate-500 text-lg mt-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-              <Link to='/SakamotoDays' className='text-center bg-blue-400 text-blue-700 py-2 rounded-lg font-semibold mt-4 hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out'>Select</Link>
+              <Link to='/SakamotoDays' className='w-full bg-blue-400 text-blue-700 py-2 rounded-lg font-semibold mt-4 hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out'>Select</Link>
             </div>
           </div>
 
           <div className='card'>
-            <div className='=p-5 flex flex-col'>
+            <div className='p-5 flex flex-col'>
               <div className='rounded xl overflow-hidden'>
-                <img src={spy_x_family} alt='' />
+                <img src={spy_x_family} alt='' className='w-full h-48 object-cover' />
               </div>
               <h5 className='text-2xl md:text-3xl font-medium mt-3'>Spy X Family</h5>
               <p className='text-slate-500 text-lg mt-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-              <Link to='/SpyXFamily' className='text-center bg-blue-400 text-blue-700 py-2 rounded-lg font-semibold mt-4 hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out'>Select</Link>
+              <Link to='/SpyXFamily' className='w-full bg-blue-400 text-blue-700 py-2 rounded-lg font-semibold mt-4 hover:bg-blue-300 focus:scale-95 transition-all duration-200 ease-out'>Select</Link>
             </div>
           </div>
           
