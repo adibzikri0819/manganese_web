@@ -42,7 +42,7 @@ export default function LatestManga() {
           </div>
 
           <div className='card'>
-            <div className='=p-5 flex flex-col'>
+            <div className='p-5 flex flex-col'>
               <div className='rounded xl overflow-hidden'>
                 <img src={jujutsu_kaisen} alt='' className=''/>
               </div>
@@ -53,7 +53,7 @@ export default function LatestManga() {
           </div>
 
           <div className='card'>
-            <div className='=p-5 flex flex-col'>
+            <div className='p-5 flex flex-col'>
               <div className='rounded xl overflow-hidden'>
                 <img src={juujika_no_rokunin} alt='' />
               </div>
